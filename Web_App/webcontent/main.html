@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>NiceRack Smart Cabinet</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+	<h1>NiceRack Smart Cabinet</h1>
+	<div id="cabinet_otp_insert">
+		<div id="insert_title">Insert Cabinet and OTP</div>
+		<div id="row_insert_div">
+			<div id="row_insert">Row Number:</div>
+			<input type="text" id="row_value" placeholder="R1"><br>
+		</div>
+		<div id="column_insert_div">
+			<div id="column_insert">Column Number:</div>
+			<input type="text" id="column_value" placeholder="C3"><br>
+		</div>
+		<div id="otp_insert_div">
+			<div id="otp_insert">OTP:</div>
+			<input type="text" id="otp_value" placeholder="1356"><br>
+		</div>
+		<button type="button" id="open_cabinet_button">Open Cabinet</button>
+	</div>
+	<table id="cabinet">
+		<tr>
+    		<th>Cabinet Row Number</th>
+    		<th>C1</th>
+    		<th>C2</th>
+    		<th>C3</th>
+    		<th>C4</th>
+  		</tr>
+  		<tr>
+  			<td class="row_num">R1</td>
+  			<td></td>
+  			<td><img class="item_image" id="bracelet_sell_item" src="item_images/bracelet_sell_item.jpg"></img></td>
+  			<td></td>
+  			<td><img class="item_image" src="item_images/book_2.jpg"></img></td>
+  		</tr>
+  		<tr>
+  			<td class="row_num">R2</td>
+  			<td><img class="item_image" id="razer_hammerhead_pro_earphones" src="item_images/razer_hammerhead_pro_earphones_original.jpg"></img></td>
+  			<td><img class="item_image" src="item_images/phone_1.jpg"></img></td>
+  			<td><img class="item_image" src="item_images/second_hand_luxury_watch.jpg"></img></td>
+  			<td><img class="item_image" src="item_images/bracelet.jpg"></img></td>
+  		</tr>
+  		<tr>
+  			<td class="row_num">R3</td>
+  			<td></td>
+  			<td><img class="item_image" src="item_images/bracelets_ad_banners.jpg"></img></td>
+  			<td><img class="item_image" id="book" src="item_images/book.jpg"></img></td>
+  			<td></td>
+  		</tr>
+  		<tr>
+  			<td class="row_num">R4</td>
+  			<td><img class="item_image" src="item_images/watches_2.jpg"></img></td>
+  			<td></td>
+  			<td></td>
+  			<td><img class="item_image" src="item_images/pens_ad_banner.jpg"></img></td>
+  		</tr>
+  		<tr>
+  			<td class="row_num">R5</td>
+  			<td></td>
+  			<td><img class="item_image" src="item_images/fan_1.jpg"></img></td>
+  			<td></td>
+  			<td></td>
+  		</tr>
+	</table>
+</body>
+</html>

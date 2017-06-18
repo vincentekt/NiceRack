@@ -1,0 +1,49 @@
+#cabinet_otp_insert {
+	margin-bottom: 20px;
+}
+
+#insert_title {
+	font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;	
+}
+
+#row_insert_div, #column_insert_div, #otp_insert_div{
+	margin-bottom: 10px;
+}
+
+#row_insert {
+	float: left;
+}
+
+#column_insert, #otp_insert {
+	float: left;
+}
+
+#row_value {
+	margin-left: 10px;
+}
+
+#column_value, #otp_value {
+	margin-left: 10px;
+}
+
+
+table {
+    border-collapse: collapse;
+}
+
+.row_num {
+	font-weight: bold;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+.item_image {
+	height: 100px;
+	opacity: 0.3;
+}
