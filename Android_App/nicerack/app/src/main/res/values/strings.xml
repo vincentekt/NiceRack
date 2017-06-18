@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">NiceRack</string>
+    <string name="search_bar">Search  Bar</string>
+    <string name="browse">Browse</string>
+    <string name="nearby">Nearby</string>
+    <string name="myitems">MyItems</string>
+    <string name="me">Me</string>
+    <string name="you_might_like_text">You Might Like</string>
+    <string name="genres_text">Genres</string>
+    <string name="item_page_title">Item Description</string>
+    <string name="pass_button_text">Pass</string>
+    <string name="like_button_text">Like</string>
+    <string name="description_text">Description:</string>
+    <string name="item_name_razer_hammerhead">Razer Hammerhead Pro V2</string>
+    <string name="item_price_razer_hammerhead">Ask $: 65.00</string>
+    <string name="description_razer_hammerhead">Thoroughly re-designed, it has an improved body
+        design and flat-style cables, with 10 mm extra-large dynamic
+        drivers for stellar audio fidelity.It has a 3-button remote control to give you greater flexibility.
+        \n\nThis product was bought last month and is 90% new.</string>
+    <string name="seller_name_razer_hammerhead">Sold By: Richard Lai</string>
+    <string name="buy_button_text">Buy</string>
+    <string name="location_razer_hammerhead">Location: Bedok Mall (Distance: 1.2 km)</string>
+    <string name="expire_duration_razer_hammerhead">Expire: 3 days</string>
+
+    <string name="item_name_book">Inside Strategy</string>
+    <string name="item_price_book">Ask $: 33.00</string>
+    <string name="description_book">This book gives you a method of managing an unknown future to
+        create new value for your internal and external customers, every day.
+        \n\nThis book is very nice to read. Finish it within 2 weeks. 80% new.</string>
+    <string name="location_book">Location: Kembangan MRT Station (Distance: 2.3 km)</string>
+    <string name="expire_duration_book">Expire: 2 days</string>
+    <string name="seller_name_book">Sold By: Leon Loo</string>
+
+    <string name="receipt_page_title">Receipt</string>
+    <string name="listing_acknowledgement_page_title">Listing Acknowledgement</string>
+    <string name="receipt_item_name_razer_hammerhead">Item Name: Razer Hammerhead Pro V2</string>
+    <string name="receipt_item_id_razer_hammerhead">Item ID: A213458</string>
+    <string name="receipt_seller_name_razer_hammerhead">Seller Name: Richard Lai</string>
+    <string name="receipt_datetime_razer_hammerhead">Date Time: 18/06/2017 12:33 p.m</string>
+    <string name="receipt_price_razer_hammerhead">Price: $ 65.00</string>
+    <string name="pickup_expiry_razer_hammerhead">Expiry: 20/06/2017 12:33 p.m</string>
+    <string name="pickup_expiry_warning">(Please collect the item before expiry date, or else additional cost will be charged)</string>
+    <string name="pickup_otp_razer_hammerhead">Item Pickup OTP: 3368</string>
+
+    <string name="receipt_item_name_book">Item Name: Inside Strategy</string>
+    <string name="receipt_item_id_book">Item ID: B365456</string>
+    <string name="receipt_seller_name_book">Seller Name: Leon Loo</string>
+    <string name="receipt_datetime_book">Date Time: 23/06/2017 11:00 a.m</string>
+    <string name="receipt_price_book">Price: $ 33.00</string>
+    <string name="pickup_expiry_book">Expiry: 25/06/2017 11:00 p.m</string>
+    <string name="pickup_otp_book">Item Pickup OTP: 1586</string>
+
+    <string name="AddSellingItemPage_title">Add Item to Sell</string>
+    <string name="sell_item_name_title">Name:</string>
+    <string name="sell_item_desc_title">Description:</string>
+    <string name="sell_item_price_title">Price:</string>
+    <string name="sell_item_location_title">Location:</string>
+    <string name="sell_button_text">Sell</string>
+
+    <string name="bracelet_sell_item">Pandora Bracelet</string>
+    <string name="receipt_item_id_bracelet_sell_item">Item ID: C135890</string>
+    <string name="datetime_bracelet_sell_item">Date Time: 28/06/2017 10:00 a.m</string>
+    <string name="price_bracelet_sell_item">Price: $ 60.00</string>
+    <string name="location_bracelet_sell_item">Location: Bedok Mall, Basement Level, Slot 123</string>
+    <string name="period_bracelet_sell_item">Period: 10/07/2017 10:00 a.m (12 days)</string>
+    <string name="cost_bracelet_sell_item">Cost: $ 5.00</string>
+
+    <string name="cabinet_location_razer_hammerhead">Cabinet Location: R2; C1</string>
+    <string name="cabinet_location_book">Cabinet Location: R3; C3</string>
+    <string name="cabinet_location_bracelet_sell_item">Cabinet Location: R1; C2</string>
+</resources>
