@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp">
+
+    <ImageView
+        android:id="@+id/receipt_item_photo"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/razer_hammerhead_pro_earphones_original"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/receipt_item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/receipt_item_name_razer_hammerhead"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/receipt_item_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/receipt_item_id_razer_hammerhead"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/receipt_seller_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/receipt_seller_name_razer_hammerhead"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/receipt_datetime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/receipt_datetime_razer_hammerhead"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/receipt_item_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/receipt_price_razer_hammerhead"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/receipt_item_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/location_razer_hammerhead"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/receipt_item_pickup_expiry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pickup_expiry_razer_hammerhead"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/receipt_item_expiry_warning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pickup_expiry_warning"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/receipt_item_pickup_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pickup_otp_razer_hammerhead"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+        android:padding="5dp"
+        android:textColor="@color/colorPickupItem"/>
+
+</LinearLayout>
